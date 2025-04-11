@@ -31,12 +31,13 @@ This project uses statistical hypothesis testing to explore those questions and 
 
 ## ✅ Key Insight
 
-The analysis revealed that factors like **hour of the day, month, temperature, humidity, windspeed, season, and weather** have a significant impact on e-bike demand. 
-On the other hand, factors like **working day status, holidays, and day of the week** did not show a meaningful influence on usage.
-This suggests that **demand varies with environmental and temporal conditions**, and not so much with calendar-based labels.
+Upon Hypothesis Testing & checking feature importance using Linear Regression, found that the following factors:
 
-To improve usage during low-demand periods, **Yulu could introduce dynamic pricing** — for example, offering lower prices during hotter or off-peak hours — to encourage more rides and boost revenue.
+- Increases Demand (High Positive Coefficients) - Hour of day, Weather (some weather conditions), Temperature, Month of year
+- Decreases Demand (High Negative Coefficients) - Humidity
+- Have insignificant impact on Demand - Day of week, Working day, Holiday
 
+Recommendation: Based on these insights, Yulu should optimize bike availability during peak commute hours & introduce weather-based pricing (lower pricing during not so favorable weather to encourage renting & normal / higher pricing in favorable weather conditions).
 
 ---
 
